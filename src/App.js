@@ -2,7 +2,8 @@ import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Switch, Route } from 'react-router-dom';
-import { Home, About, Events, Products, Contact } from './pages';
+import Home from './pages/Home';
+import { About, Events, Products, Contact } from './pages';
 
 const App = () => (
   <div>
